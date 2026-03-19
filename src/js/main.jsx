@@ -25,7 +25,12 @@ setInterval(() => {
 
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-      <Home digOne={One} digTwo={Two} digThree={Three} digFour={Four} digFive={Five} digSix={Six}/>
+      <Home digOne={One} digTwo={Two} digThree={Three} digFour={Four} digFive={Five} digSix={Six} onReset={resetCounter} />
     </React.StrictMode>,
   )
 }, 1000)
+
+
+const resetCounter = () => {
+  contador = 0;
+};
