@@ -34,8 +34,8 @@ const Home = (props) => {
 				</div>
 			
 			</div>
-			<div class="d-grid gap-2">
-				<button class="btn btn-success mt-2 reset" type="button" onClick={props.onReset} >Reset</button>
+			<div className="d-grid gap-2">
+				<button className="btn btn-success mt-2 reset" type="button" onClick={props.onReset} >Reset</button>
 			</div>
 		</div>
 
